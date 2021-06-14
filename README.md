@@ -1,6 +1,7 @@
 # Online-Restaurant-Management-System
 
 This is an online restaurant management system that has following funcationalities:
+
 The restaurant database will have a menu which will contain the food types and the cuisine
 each food belongs to. There is a functionality to order your food online once you sign up the
 account. You can also place your order through phone. You can pay your bill either through
