@@ -11,4 +11,4 @@ another functionality to calculate the time remaining in your order. The details
 also saved and an area is allocated to each rider where he delivers food. There are discounts for
 loyal customers based on their loyalty points. The database provides suggestions to each
 customer based on their order history. The database would also have the functionality to
-suggest customer food from = cuisines relevant to the food he usually orders.
+suggest customer food from = cuisines relevant to the food that the person usually orders.
