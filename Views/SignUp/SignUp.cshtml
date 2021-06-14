@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+}
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>  Username</b></label>
+        <br />
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br />
+
+        <label for="uname"><b>  Email</b></label>
+        <br />
+        <input type="text" placeholder="Enter Email" name="uname" required>
+        <br />
+
+        <label for="psw"><b> Password</b></label>
+        <br />
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br />
+
+        <label for="psw"><b> Confirm Password</b></label>
+        <br />
+        <input type="password" placeholder="Confirm Password " name="psw" required>
+        <br />
+
+        <label>
+            <br />
+            <input type="checkbox" checked="checked" name="remember">  Remember me <br />
+        </label>
+        <br />
+        <br />
+        <button type="submit" name="SignUpBtn" value="Sign Up" onclick="window.location='@Url.Action("newMenu", "Home")'">Sign Up</button> <br /> <br />
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <br />
+        <span class="psw">Already a member? <a href="../../SignIn/SignIn">SignIn</a></span>
+    </div>
+</form>
+
+
+
